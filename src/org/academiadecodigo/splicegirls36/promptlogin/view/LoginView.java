@@ -1,6 +1,9 @@
 package org.academiadecodigo.splicegirls36.promptlogin.view;
 
-public class LoginView {
+import org.academiadecodigo.splicegirls36.promptlogin.controller.LoginController;
 
+public interface LoginView {
 
+    void show();
+    void setController(LoginController controller);
 }

@@ -7,7 +7,7 @@ public class User {
     private String userName;
     private String password;
 
-    public User (String userName) {
+    private User (String userName) {
 
         this.userName = userName;
         this.password = DEFAULT_PASSWORD;
